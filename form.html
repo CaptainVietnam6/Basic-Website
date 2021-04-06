@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+            <ul class = "topthingy">
+            <li class = "topthingy"><a href="index.html">Home</a></li>
+            <li class = "topthingy"><a href="download.html">Download Minecraft</a></li>
+            <li class = "topthingy"><a href="recentupdates.html">Recent Updates</a></li>
+            <li class = "topthingy"><a href="whocreated.html">Who created Minecraft?</a></li>
+            <li class = "topthingy"><a href="form.html">Join my Discord!</a></li>
+        </ul>
+
+    <h1>
+        Join my Discord server! 
+    </h1>
+    <form>
+        <h3>
+            Enter your information! :D 
+        </h3>
+        <label>Your name</label><br/>
+        <input type = "text" id = "name"/><br/>
+
+        <label>Your discord username (e.g Username#1234)</label><br/>
+        <input type = "text" id = "discorduser"/><br/>
+
+        <h3>
+            What do you want us to refer to you as?
+        </h3>
+        <input type = "radio" id= "gender_selector">
+        <label>He/Him</label><br>
+        <input type = "radio" id= "gender_selector">
+        <label>She/Her</label><br>
+        <input type = "radio" id= "gender_selector">
+        <label>Rather not say</label><br>
+
+        <input type="submit" value="Submit" id = "submitbutton">
+
+        <div id = "tag-message"></div>
+    </form>
+  </body>
+</html>
